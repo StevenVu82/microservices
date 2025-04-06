@@ -38,6 +38,8 @@ spec:
               value: admin
             - name: DB_PASSWORD
               value: Achau@4444
+            - name: TRANSPORTER
+              value: nats://nats:4222
           envFrom:
             - configMapRef:
                 name: microservice-cm
@@ -83,6 +85,8 @@ spec:
               value: admin
             - name: DB_PASSWORD
               value: Achau@4444
+            - name: TRANSPORTER
+              value: nats://nats:4222
           envFrom:
             - configMapRef:
                 name: microservice-cm

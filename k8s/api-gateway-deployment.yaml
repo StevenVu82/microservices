@@ -39,9 +39,9 @@ spec:
             - name: DB_NAME
               value: postgres
             - name: DB_USER
-              value: postgres
+              value: admin
             - name: DB_PASSWORD
-              value: postgres
+              value: Achau@4444
           envFrom:
             - configMapRef:
                 name: microservice-cm
